@@ -11,32 +11,34 @@ bug修复 | 🐞 | 优化 | 💄
 ## 1 修改
 
 #### 【修改样式或组件】
-- 🗑  cattle-manager bird-manager 设备高级配置通信重试次数取消限制;
-- 🛠  cattle-manager bird-manager 公司下拉框改为搜索公司;
-- 🛠  bird-manager 修复账单充值为小数时，充值计算错误的bug;
-- 🛠  manager 例行维护;
+- 🛠  基础数据平台禅道bug修复和需求变动更改;
+- 🛠  cattle-manager bird-manager 修改网关配置显示字段名，蓝牙配置新增物理层，蓝牙扫描模为定时模式时，可配置时长和间隔;
+- 🐞  manager 例行维护;
+- 🛠  cattle-manager 修改sim卡列表搜索sim卡的api;
 
 ## 2 新增
 
 #### 【新增样式或者功能】
-- 🆕  manager公司列表使用新翻页，公司详情添加设备管理，可进行设备浏览;
-- 🆕  bird-manager 蓝牙网关配置添加蓝牙桩配置
-- 🆕  bird-manager 添加公告管理(添加，删除，编辑)
-- 🆕  manager v1设备的设备配置计划关机使用新组件，新增关机项目
-- 💄  以前是需要用户自己计算时间转换成秒数填入，现在改为选择时间，前端计算为秒数，方便设置
-- 🆕  manager 设备筛选文件筛选添加了卡号筛选
+- 🆕  cattle-manager bird-manager 设备管理和配置管理增加选中数据条数;
+- 🆕  cattle-manager v1设备普通配置信标白名单模式添加严格白名单;
+- 🆕  bird-manager 设备列表配置基站定位添加boost数据定位开关;
+- 🆕  factory-admin 添加argos管理(新增所有设备，已绑定的设备，所有设备的搜索和批量导出);
+- 🆕  factory-admin 整机测试中测试报告新增导出argos发货列表
+- 🆕  bird-manager 设备管理添加argos设备(绑定，解绑的功能)
+- 🆕  bird-manager argos设备绑定列表和argos数据(点击platform id查看)
+- 🆕  bird-manager 设备详情界面添加argos数据tab页
+- 🆕  bird-manager 设备详情界面添加管理操作按钮
 
 ## 3 后续
 
 #### 【后续工作】
-- 📖  对接基础数据平台
-- 🆕  蓝牙配置一些新增的需求
+- 🆕  精准定位
+- 🐞  manager端维护
 
 ## 4 总结
 
 #### 【总结】
-- 📖  总体跟进任务和需求的变动，有一些之前的不利于用户使用的地方需要及时变更，更换更有效的组件或操作方式，
-一些效率低的组件替换为更高效率的组件，方便维护、新增、修改。
+- 📖  总体跟进任务和需求的变动。使用更新的组件搭建新的开发环境。
 
 
 ## 1.4.0
